@@ -65,7 +65,7 @@ const INITIAL_STUDENTS: Student[] = [
   
      {
     id: '7',
-    name: 'Pavan K',
+    name: 'Viswaja R',
     rollNumber: '2024007',
     year: '2nd Year',
     section: 'A',
@@ -79,8 +79,12 @@ const STORAGE_KEY = 'aditya_mentor_system_data';
 
 // Helper to get data
 const getStudents = (): Student[] => {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(INITIAL_STUDENTS));
-  return INITIAL_STUDENTS;
+  const data = localStorage.getItem(STORAGE_KEY);
+  if (!data) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(INITIAL_STUDENTS));
+    return INITIAL_STUDENTS;
+  }
+  return JSON.parse(data);
 };
 
 // Helper to save data

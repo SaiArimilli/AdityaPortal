@@ -41,3 +41,15 @@ To get a local copy up and running, follow these simple steps.
     ```sh
     npm run dev
     ```
+
+## Troubleshooting
+
+The mock backend uses the browser's `localStorage` to persist student data. If you find that the data is out of sync or not showing the latest changes from the source code, you may need to clear the `localStorage` for this site.
+
+**How to clear `localStorage` in Google Chrome:**
+
+1.  Open the Developer Tools by pressing `F12` or `Ctrl+Shift+I`.
+2.  Go to the `Application` tab.
+3.  In the `Storage` section on the left, expand `Local Storage`.
+4.  Right-click on the site's domain and select `Clear`.
+5.  Refresh the page.
