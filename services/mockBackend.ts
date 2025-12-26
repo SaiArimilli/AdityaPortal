@@ -4,9 +4,9 @@ import { Student, User, UserRole } from '../types';
 const INITIAL_STUDENTS: Student[] = [
   {
     id: '1',
-    name: 'Sai Krishna',
+    name: 'Sai Prakash A',
     rollNumber: '2024001',
-    year: '2nd Year',
+    year: '3rd Year',
     section: 'A',
     attendance: 85,
     marks: { weekend: 85, mid: 78 },
@@ -14,9 +14,9 @@ const INITIAL_STUDENTS: Student[] = [
   },
   {
     id: '2',
-    name: 'Anjali Devi',
+    name: 'Sravani A',
     rollNumber: '2024002',
-    year: '3rd Year',
+    year: '2nd Year',
     section: 'B',
     attendance: 92,
     marks: { weekend: 92, mid: 88 },
@@ -24,12 +24,42 @@ const INITIAL_STUDENTS: Student[] = [
   },
   {
     id: '3',
-    name: 'Rajesh Kumar',
+    name: 'Geetanjali R',
     rollNumber: '2024003',
-    year: '1st Year',
+    year: '2nd Year',
     section: 'A',
     attendance: 65,
-    marks: { weekend: 45, mid: 50 },
+    marks: { weekend: 85, mid: 85 },
+    signatures: {}
+  },
+   {
+    id: '4',
+    name: 'Bindhu Nalluri',
+    rollNumber: '2024004',
+    year: '1st Year',
+    section: 'A',
+    attendance: 90,
+    marks: { weekend: 40, mid: 50 },
+    signatures: {}
+  },
+     {
+    id: '5',
+    name: 'Bharath G',
+    rollNumber: '2024005',
+    year: '1st Year',
+    section: 'A',
+    attendance: 60,
+    marks: { weekend: 75, mid: 80 },
+    signatures: {}
+  },
+     {
+    id: '6',
+    name: 'Avinash P',
+    rollNumber: '2024006',
+    year: '1st Year',
+    section: 'A',
+    attendance: 40,
+    marks: { weekend: 40, mid: 39 },
     signatures: {}
   }
 ];
