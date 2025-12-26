@@ -14,27 +14,27 @@ const INITIAL_STUDENTS: Student[] = [
   },
   {
     id: '2',
-    name: 'Sravani A',
-    rollNumber: '2024002',
-    year: '2nd Year',
-    section: 'B',
-    attendance: 92,
-    marks: { weekend: 92, mid: 88 },
-    signatures: {}
-  },
-  {
-    id: '3',
     name: 'Geetanjali R',
-    rollNumber: '2024003',
+    rollNumber: '2024002',
     year: '2nd Year',
     section: 'A',
     attendance: 65,
     marks: { weekend: 85, mid: 85 },
     signatures: {}
   },
+  {
+    id: '3',
+    name: 'Sravani A',
+    rollNumber: '2024003',
+    year: '2nd Year',
+    section: 'B',
+    attendance: 92,
+    marks: { weekend: 92, mid: 88 },
+    signatures: {}
+  },
    {
     id: '4',
-    name: 'Bindhu Nalluri',
+    name: 'Bindhu N',
     rollNumber: '2024004',
     year: '1st Year',
     section: 'A',
