@@ -59,7 +59,7 @@ const INITIAL_STUDENTS: Student[] = [
     year: '1st Year',
     section: 'A',
     attendance: 40,
-    marks: { weekend: 40, mid: 39 },
+    marks: { weekend: 35, mid: 39 },
     signatures: {}
   }
 ];
