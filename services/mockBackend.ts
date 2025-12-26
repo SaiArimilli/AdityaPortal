@@ -61,6 +61,17 @@ const INITIAL_STUDENTS: Student[] = [
     attendance: 40,
     marks: { weekend: 35, mid: 39 },
     signatures: {}
+  },
+  
+     {
+    id: '7',
+    name: 'Avinash P',
+    rollNumber: '2024007',
+    year: '2nd Year',
+    section: 'A',
+    attendance: 40,
+    marks: { weekend: 45, mid: 40 },
+    signatures: {}
   }
 ];
 
